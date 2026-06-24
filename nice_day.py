@@ -1,5 +1,8 @@
 
+# Variables for the month of May 2023
 may_2023 = [24, 26, 15, 10, 15, 19, 10, 1, 4, 7, 7, 7, 12, 14, 17, 8, 9, 19, 21, 22, 11, 15, 19, 23, 15, 21, 16, 13, 25, 17, 19] 
+
+# Function to count the number of comfortable days
 def comfort_count(temperatures):
     count = 0
     for temp in temperatures:
